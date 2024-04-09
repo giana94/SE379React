@@ -1,14 +1,13 @@
 import './App.css';
-import Todo from './Todo';
+import SignUpForm from './SignUpForm';
+
+
 
 function App() {
-  return (
-    <div class="todo-container">
-      <Todo />
-      <Todo />
-      <Todo />
+  return(
+    <div className="signupform-container">
+      <SignUpForm/>
     </div>
   );
-}
-
+};
 export default App;
