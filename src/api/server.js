@@ -14,6 +14,7 @@ const RECENT_NOTIFICATIONS_DAYS = 7
 // Add an extra delay to all endpoints, so loading spinners show up.
 const ARTIFICIAL_DELAY_MS = 2000
 
+
 function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
