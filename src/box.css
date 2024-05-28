@@ -1,0 +1,23 @@
+.box {
+    display: grid;
+    justify-items: center;
+}
+
+.card-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    width: 45%;
+}
+
+
+.main-img {
+    width: 10%;
+    margin-right: 7%;
+}
+
